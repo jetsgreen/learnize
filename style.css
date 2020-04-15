@@ -119,3 +119,23 @@ select::after {
     height: 38px;
     width: 250px;
 }
+
+@media (max-width: 635px){
+    header{
+        line-height: inherit;
+    }
+    form{
+        width: 100%;
+        margin: 5px;
+       
+    }
+}
+
+@media(max-width: 635px ) {
+    .filter-todo{
+        display: none;
+    }
+}
+
+
+
