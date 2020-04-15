@@ -20,7 +20,10 @@ function addTodo(event) {
 
     const newTodo = document.createElement('li');
     newTodo.innerText = todoInput.value;
-    newTodo.classList.add('todo-item');
+    if(todoInput.value === ""){
+        alert("Please add a task");
+    }else{ 
+        newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo);
     // Check Mark Button
     const completedButton = document.createElement('button');
@@ -37,6 +40,8 @@ function addTodo(event) {
     todoList.appendChild(todoDiv)
     // To clear value from input after creating a task
     todoInput.value ="";
+    }
+    
 };
 
 function deleteCheck(event) {
@@ -83,3 +88,4 @@ function filterTodo(e){
         }
     });
 }
+
