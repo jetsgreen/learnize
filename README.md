@@ -11,3 +11,6 @@ delete.  You can also check which task you have completed, whichones need to don
 - Javascript
 - Google Fonts
 - Font Awesome
+
+### Here is the Link for the App
+https://jetsgreen.github.io/learnize/.
